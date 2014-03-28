@@ -29,6 +29,10 @@ void draw() {
 
   for ( Meteor met : mets) {
     met.drawPlanet();
+    /*
+    met.checkCollisionWithPlanet(sun);
+    met.checkCollisionWithPlanet(earth);
+    */
   }
 }
 
